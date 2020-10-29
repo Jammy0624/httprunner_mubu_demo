@@ -12,8 +12,8 @@ class TestCaseMubuLogin(HttpRunner):
         Config("testcase description")
             .variables(**{
             'host': 'https://mubu.com',
-            'phone': '13777866085',
-            'password': 'jinjiamin'
+            'phone': 'xxx',
+            'password': 'xxx'
         })
             .base_url('${host}')
             .export('data_unique_id', 'JwtToken', 'user_persistence')
